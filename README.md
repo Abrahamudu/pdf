@@ -32,10 +32,12 @@ Run the following command to build the Docker images and start the containers:
 docker-compose up --build
 ```
 This command will build the Docker images for the frontend and backend, create containers from these images, and start the application.
+<br>
 **5. Access the Application:**
 Once the Docker containers are up and running, you can access the application in your web browser:
 
 Open http://localhost:4000
+<br>
 Frontend Application: Open http://localhost:3000 to access the React frontend application.
 
 **6. Interact with the Application:**
@@ -43,6 +45,7 @@ Frontend Application: Open http://localhost:3000 to access the React frontend ap
 Use the frontend interface to submit user details and upload resumes.
 Verify that the files are successfully uploaded by checking the uploads directory in the project root.
 Backend API: Open http://localhost:4000/api/upload to access the backend API for file uploads.
+<br>
 **7. Stop the Docker Containers:**
 To stop the Docker containers and remove the associated resources, press Ctrl + C in the terminal where docker-compose is running. Alternatively, run the following command in a separate terminal window:
 ```
